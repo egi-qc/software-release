@@ -1,0 +1,35 @@
+{
+    "name" : "glite-yaim-bdii",
+    "version" : "6.0.1",
+    "currentState" : "Production",
+    "technology_provider" : "EGI",
+    "contact" : "operations (at) egi.eu",
+    "technicalContact" : "operations (at) egi.eu",
+    "description" : " The glite yaim bdii it's a configuration tool to help configure the BDII",
+    "releaseDate" : "2024-11-11",
+    "majorVersion" : "6",
+    "minorVersion" : "0",
+    "revisionVersion" : "1",
+    "releaseNotes" : "NA",
+    "changeLog" : "https://gridinfo-documentation.readthedocs.io/en/latest/bdii-releases.html#bdii-releases",
+    "documentationLinks" : ["https://twiki.cern.ch/twiki/bin/view/LCG/BDIIconfigYAIMel9","link2"],
+    "repositoryURL" : "sw/production/umd/5/al9/release/x86_64",
+    "distributionType": "UMD",
+    "distributionVersion": "5.0.0",
+    "capabilities":["Information Discovery","Information Model"], 
+    "extraOSRepos": ["crb"],
+    "target": [
+        {
+            "platform": "al9", 
+            "arch": "x86_64",
+            "repositoryURL": "sw/production/umd/5/al9/release/x86_64",
+            "gpgkey": "https://repository.egi.eu/repository/umd/5/UMD-5-RPM-PGP-KEY",
+            "rpms": [
+                "https://linuxsoft.cern.ch/wlcg/el9/x86_64/glite-yaim-bdii-6.0.1-1.el9.noarch.rpm",
+                "https://linuxsoft.cern.ch/wlcg/el9/x86_64/glite-info-site-0.4.1-1.el9.noarch.rpm"
+                   ]
+        }
+    ],
+    "softwareConfigurationLink": "",
+    "dummy" : "count 1"
+}
