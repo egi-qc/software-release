@@ -17,6 +17,7 @@
     "distributionType": "UMD",
     "distributionVersion": "5.0.0",
     "capabilities": ["File Transfer","File Access"], 
+    "extraOSRepos": ["crb"],
     "target": [
         {
             "platform": "al9", 
@@ -28,5 +29,6 @@
             ]
         }
     ],
-    "softwareConfigurationLink": ""
+    "softwareConfigurationLink": "",
+    "dummy" : "count 1"
 }
