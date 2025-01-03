@@ -1,0 +1,34 @@
+{
+    "name" : "dcache",
+    "version" : "9.2.31",
+    "currentState" : "Production",
+    "technology_provider" : "DCACHE",
+    "contact" : "support(at)dcache.org",
+    "technicalContact" : "support(at)dcache.org",
+    "description" : "dCache provides system for storing and retrieving huge amounts of data, distributed among a large number of heterogenous server nodes, under a single virtual filesystem tree with a variety of standard access methods.",
+    "releaseDate" : "2024-12-20",
+    "majorVersion" : "9",
+    "minorVersion" : "2",
+    "revisionVersion" : "31",
+    "releaseNotes" : "https://www.dcache.org/old/downloads/1.9/release-notes-9.2.shtml#release9.2.31",
+    "changeLog" : "https://www.dcache.org/old/downloads/1.9/release-notes-9.2.shtml#release9.2.31",
+    "documentationLinks" : ["https://dcache.org/documentation/","link2"],
+    "repositoryURL" : "sw/production/umd/5/al9/release/x86_64",
+    "distributionType": "UMD",
+    "distributionVersion": "5.0.0",
+    "capabilities": ["File Transfer","File Access"], 
+    "extraOSRepos": ["crb"],
+    "target": [
+        {
+            "platform": "al9", 
+            "arch": "x86_64",
+            "repositoryURL": "sw/production/umd/5/al9/release/x86_64",
+            "gpgkey": "https://repository.egi.eu/repository/umd/5/UMD-5-RPM-PGP-KEY",
+            "rpms": [
+               "https://www.dcache.org/old/downloads/1.9/repo/9.2/dcache-9.2.31-1.noarch.rpm"
+            ]
+        }
+    ],
+    "softwareConfigurationLink": "",
+    "dummy" : "count 1"
+}
