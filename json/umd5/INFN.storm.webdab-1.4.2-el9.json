@@ -1,0 +1,34 @@
+{
+    "name" : "storm-webdav",
+    "version" : "1.4.2",
+    "currentState" : "Production",
+    "technology_provider" : "INFN",
+    "contact" : "storm-support <at> lists.infn.it",
+    "technicalContact" : "storm-support <at> lists.infn.it ",
+    "description" : "StoRM is a lightweight storage resource manager solution developed at INFN, which powers the Italian Tier-1 data center at INFN-CNAF, as well as more than 30 other sites.",
+    "releaseDate" : "2024-12-20",
+    "majorVersion" : "1",
+    "minorVersion" : "4",
+    "revisionVersion" : "2",
+    "releaseNotes" : "NA",
+    "changeLog" : "https://italiangrid.github.io/storm/release-notes/storm-webdav/1.4.2/",
+    "documentationLinks" : ["https://italiangrid.github.io/storm/documentation.html","link2"],
+    "repositoryURL" : "sw/production/umd/5/al9/release/x86_64",
+    "distributionType": "UMD",
+    "distributionVersion": "5.0.0",
+    "capabilities":["File Access"], 
+    "extraOSRepos": ["crb"],
+    "target": [
+        {
+            "platform": "al9", 
+            "arch": "x86_64",
+            "repositoryURL": "sw/production/umd/5/al9/release/x86_64",
+            "gpgkey": "https://repository.egi.eu/repository/umd/5/UMD-5-RPM-PGP-KEY",
+            "rpms": [
+                "https://repo.cloud.cnaf.infn.it/repository/storm-rpm-stable/redhat9/storm-webdav-1.4.2-1.el9.noarch.rpm"
+                   ]
+        }
+    ],
+    "softwareConfigurationLink": "",
+    "dummy" : "count 4"
+}
